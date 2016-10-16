@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/kminilte/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosIPService.so:system/lib/libExynosIPService.so \
+    vendor/samsung/kminilte/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/samsung/kminilte/proprietary/lib/hw/hwcomposer.exynos3.so:system/lib/hw/hwcomposer.exynos3.so \
     vendor/samsung/kminilte/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
     vendor/samsung/kminilte/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
