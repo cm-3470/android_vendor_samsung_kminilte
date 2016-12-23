@@ -21,13 +21,11 @@ lib/libexynosutils.so
 lib/libsamsungSoundbooster.so
 lib/libhwjpeg.so
 lib/libsamsungRecord_ns.so
-lib/libExynosOMX_Core.so
 lib/libmaet.so
 lib/libacdapi_clb.so
 lib/libhwcutils.so
 lib/lib_Samsung_SB_AM_for_ICS_v04004.so
 lib/lib_Samsung_Resampler.so
-lib/libExynosOMX_Resourcemanager.so
 lib/libaudio-ril.so
 lib/libhwcutilsmodule.so
 lib/libomission_avoidance.so
@@ -45,15 +43,9 @@ lib/libdrmdecrypt.so
 lib/libmpp.so
 lib/libsamsungRecord.so
 lib/libsecnativefeature.so
-lib/omx/libOMX.Exynos.WMV.Decoder.so
-lib/omx/libOMX.Exynos.AVC.Decoder.so
-lib/omx/libOMX.Exynos.AVC.Encoder.so
-lib/omx/libOMX.Exynos.MPEG4.Decoder.so
-lib/omx/libOMX.Exynos.MPEG4.Encoder.so
 lib/libexynosscaler.so
 lib/libhdmi.so
 lib/libmllite.so
-lib/libstagefrighthw.so
 lib/libexynosfimc.so
 lib/libdisplay.so
 lib/libvirtualdisplaymodule.so
@@ -109,8 +101,11 @@ etc/wifi/nvram_net.txt
 etc/srm.bin
 
 
-Done:
 
+Staging:
+
+
+Done:
 vendor/lib/libuiblur.so
 
 bin/mcDriverDaemon
@@ -138,4 +133,13 @@ app/mcRegistry/ffffffff000000000000000000000018.tlbin
 app/mcRegistry/00060308060501020000000000000000.tlbin
 app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 app/mcRegistry/ffffffff000000000000000000000004.tlbin
+
+lib/libExynosOMX_Core.so
+lib/libExynosOMX_Resourcemanager.so
+lib/libstagefrighthw.so
+lib/omx/libOMX.Exynos.WMV.Decoder.so
+lib/omx/libOMX.Exynos.AVC.Decoder.so
+lib/omx/libOMX.Exynos.AVC.Encoder.so
+lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+lib/omx/libOMX.Exynos.MPEG4.Encoder.so
 
