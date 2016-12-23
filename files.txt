@@ -58,9 +58,6 @@ lib/libvirtualdisplay.so
 lib/libExynosIPService.so
 lib/libHrmEol.so
 lib/libhdmimodule.so
-lib/egl/libGLESv2_mali.so
-lib/egl/libEGL_mali.so
-lib/egl/libGLESv1_CM_mali.so
 lib/libfpasmtztransport.so
 lib/libexynosv4l2.so
 lib/libsec-ril.so
@@ -104,7 +101,6 @@ etc/srm.bin
 
 Staging:
 
-
 Done:
 vendor/lib/libuiblur.so
 
@@ -142,4 +138,8 @@ lib/omx/libOMX.Exynos.AVC.Decoder.so
 lib/omx/libOMX.Exynos.AVC.Encoder.so
 lib/omx/libOMX.Exynos.MPEG4.Decoder.so
 lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+
+lib/egl/libGLESv2_mali.so
+lib/egl/libEGL_mali.so
+lib/egl/libGLESv1_CM_mali.so
 
