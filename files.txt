@@ -35,23 +35,19 @@ lib/hw/hwcomposer.exynos3.so
 lib/hw/camera.universal3470.so
 lib/hw/nfc_nci.universal3470.so
 lib/libdrmdecrypt.so
-lib/libmpp.so
 lib/libsamsungRecord.so
 lib/libsecnativefeature.so
 lib/libexynosscaler.so
 lib/libhdmi.so
-lib/libmllite.so
 lib/libexynosfimc.so
 lib/libdisplay.so
 lib/libvirtualdisplaymodule.so
 lib/libstagefright_hdcp.so
 lib/libvfmtztransport.so
 lib/libexynoscamera.so
-lib/libmplmpu.so
 lib/libhdcp2.so
 lib/libvirtualdisplay.so
 lib/libExynosIPService.so
-lib/libHrmEol.so
 lib/libhdmimodule.so
 lib/libfpasmtztransport.so
 lib/libexynosv4l2.so
@@ -77,7 +73,7 @@ etc/wifi/bcmdhd_p2p.bin_b2
 etc/wifi/nvram_net.txt
 etc/srm.bin
 
-
+staging:
 
 review:
 bin/lpm
@@ -96,8 +92,6 @@ media/battery_low.spi
 media/wave_loop.spi
 media/incompatible_charger.spi
 media/battery_temperature_limit.spi
-
-staging:
 
 Done:
 vendor/lib/libuiblur.so
@@ -145,4 +139,9 @@ vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/libwvdrm_L1.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libwvm.so
+
+lib/libmplmpu.so
+lib/libmpp.so
+lib/libHrmEol.so
+lib/libmllite.so
 
