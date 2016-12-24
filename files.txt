@@ -3,8 +3,6 @@ vendor/firmware/setfile_4h5.bin
 vendor/firmware/sec_s3fwrn5_firmware.bin
 vendor/firmware/setfile_6b2.bin
 vendor/firmware/mfc_fw.bin
-vendor/firmware/bcm4334_V1831.2468.hcd
-vendor/firmware/bcm4339_V1831.2468.hcd
 vendor/firmware/setfile_6a3.bin
 etc/sec_s3fwrn5_rfreg.bin
 etc/srm.bin
@@ -21,6 +19,9 @@ lib/libdrmdecrypt.so
 lib/libsecnativefeature.so
 lib/libExynosIPService.so
 
+vendor/firmware/bcm4334_V1837.2645.hcd
+vendor/firmware/bcm4339_V1831.2468.hcd
+
 lib/libsamsungRecord.so
 lib/lib_DNSe_NRSS_ver226.so
 
@@ -30,12 +31,6 @@ etc/gps.xml
 etc/gps.conf
 bin/gps.cer
 lib/libwrappergps.so
-
-bin/macloader
-etc/wifi/bcmdhd_sta.bin_b2
-etc/wifi/bcmdhd_apsta.bin_b2
-etc/wifi/bcmdhd_p2p.bin_b2
-etc/wifi/nvram_net.txt
 
 lib/libomission_avoidance.so
 lib/libatparser.so
@@ -160,4 +155,10 @@ lib/libfpasmtztransport.so
 lib/libvcsfp.so
 lib/libvfmtztransport.so
 lib/libvfmClient.so
+
+bin/macloader
+etc/wifi/bcmdhd_sta.bin_b2
+etc/wifi/bcmdhd_apsta.bin_b2
+etc/wifi/bcmdhd_p2p.bin_b2
+etc/wifi/nvram_net.txt
 
