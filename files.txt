@@ -25,13 +25,6 @@ vendor/firmware/bcm4339_V1831.2468.hcd
 lib/libsamsungRecord.so
 lib/lib_DNSe_NRSS_ver226.so
 
-lib/hw/gps.default.so
-bin/gpsd
-etc/gps.xml
-etc/gps.conf
-bin/gps.cer
-lib/libwrappergps.so
-
 lib/libomission_avoidance.so
 lib/libatparser.so
 
@@ -161,4 +154,11 @@ etc/wifi/bcmdhd_sta.bin_b2
 etc/wifi/bcmdhd_apsta.bin_b2
 etc/wifi/bcmdhd_p2p.bin_b2
 etc/wifi/nvram_net.txt
+
+lib/hw/gps.default.so
+bin/gpsd
+etc/gps.xml
+etc/gps.conf
+bin/gps.cer
+lib/libwrappergps.so
 
