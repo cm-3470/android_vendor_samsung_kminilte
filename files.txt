@@ -8,25 +8,17 @@ etc/sec_s3fwrn5_rfreg.bin
 etc/srm.bin
 
 lib/libcsc.so
-lib/libgdmcprov.so
-lib/libfactoryutil.so
 lib/libexynosutils.so
 lib/libmaet.so
 lib/libacdapi_clb.so
 lib/hw/keystore.exynos3470.so
 lib/hw/nfc_nci.universal3470.so
 lib/libdrmdecrypt.so
-lib/libsecnativefeature.so
 lib/libExynosIPService.so
 
 vendor/firmware/bcm4334_V1837.2645.hcd
 vendor/firmware/bcm4339_V1831.2468.hcd
 
-lib/libsamsungRecord.so
-lib/lib_DNSe_NRSS_ver226.so
-
-lib/libomission_avoidance.so
-lib/libatparser.so
 
 lib/hw/camera.universal3470.so
 lib/libexynoscamera.so
@@ -57,22 +49,6 @@ staging:
 
 
 review:
-lib/hw/audio.primary.universal3470.so
-lib/lib_SamsungRec_V04004.so
-lib/libsamsungSoundbooster.so
-lib/libsamsungRecord_ns.so
-lib/lib_Samsung_SB_AM_for_ICS_v04004.so
-lib/lib_Samsung_Resampler.so
-etc/default_gain.conf
-etc/tinyucm.conf (no changes)
-etc/audio_policy.xml (no changes)
-
-lib/libaudio-ril.so
-bin/at_distributor
-etc/plmn_se13.bin
-lib/libsec-ril.so
-
-review:
 bin/lpm
 lib/libsxqk_skia.so
 media/wireless_left.spi
@@ -91,6 +67,28 @@ media/incompatible_charger.spi
 media/battery_temperature_limit.spi
 
 Done:
+lib/libsecnativefeature.so
+lib/libgdmcprov.so
+lib/libfactoryutil.so
+
+lib/libomission_avoidance.so
+lib/libatparser.so
+lib/lib_SamsungRec_V04004.so
+lib/libsamsungSoundbooster.so
+lib/hw/audio.primary.universal3470.so
+lib/lib_DNSe_NRSS_ver226.so
+lib/libsamsungRecord.so
+lib/libsamsungRecord_ns.so
+lib/lib_Samsung_SB_AM_for_ICS_v04004.so
+lib/lib_Samsung_Resampler.so
+etc/default_gain.conf
+etc/tinyucm.conf (no changes)
+etc/audio_policy.xml (no changes)
+bin/at_distributor
+lib/libaudio-ril.so
+lib/libsec-ril.so
+etc/plmn_se13.bin
+
 vendor/lib/libuiblur.so
 
 bin/mcDriverDaemon
