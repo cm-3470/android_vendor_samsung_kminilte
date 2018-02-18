@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4334_V1837.2645.hcd:system/vendor/firmware/bcm4334_V1837.2645.hcd \
     vendor/samsung/kminilte/proprietary/vendor/firmware/bcm4339_V1831.2468.hcd:system/vendor/firmware/bcm4339_V1831.2468.hcd \
+    vendor/samsung/kminilte/proprietary/etc/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
     vendor/samsung/kminilte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/kminilte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/kminilte/proprietary/etc/srm.bin:system/etc/srm.bin \
